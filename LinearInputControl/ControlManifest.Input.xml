@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="SampleNamespace" constructor="HebrewTextBox" version="0.0.1" display-name-key="HebrewTextBox" description-key="HebrewTextBox description" control-type="standard">
+    <external-service-usage enabled="false">
+    </external-service-usage>
+    <!-- <property name="sampleProperty" display-name-key="Property_Display_Key" description-key="Property_Desc_Key" of-type="SingleLine.Text" usage="bound" required="true" /> -->
+    <property name="text" display-name-key="Text_Display_Key" description-key="Text_Desc_Key" of-type="SingleLine.Text" usage="bound" required="false" />
+    <resources>
+      <code path="index.ts" order="1"/>
+      <css path="css/HebrewTextBox.css" order="1" />
+    </resources>
+  </control>
+</manifest>
